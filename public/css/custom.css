@@ -1,0 +1,95 @@
+/* Ensure the packages section and other content are centered and spaced properly */
+.packages-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* Authentication links styling */
+.auth-links {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.auth-links .btn {
+  font-size: 1.5rem; /* Larger font size */
+  padding: 1rem 2rem; /* Larger padding */
+  border-radius: 30px; /* Rounded corners */
+  margin: 0.75rem;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+/* Package button styling */
+.package-btn {
+  border-radius: 30px; /* Larger border radius */
+  padding: 15px; /* Adjusted padding for smaller size */
+  font-size: 16px; /* Smaller font size */
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+  text-align: center;
+  display: block;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Specific colors for package buttons */
+.package-btn:nth-child(1) {
+  background-color: #3498db; /* Blue */
+}
+
+.package-btn:nth-child(2) {
+  background-color: #2ecc71; /* Green */
+}
+
+.package-btn:nth-child(3) {
+  background-color: #e74c3c; /* Red */
+}
+
+.package-btn:nth-child(4) {
+  background-color: #f39c12; /* Orange */
+}
+
+.package-btn:nth-child(5) {
+  background-color: #9b59b6; /* Purple */
+}
+
+.package-btn:nth-child(6) {
+  background-color: #1abc9c; /* Teal */
+}
+
+.package-btn:nth-child(7) {
+  background-color: #34495e; /* Dark Blue */
+}
+
+.package-btn:nth-child(8) {
+  background-color: #d35400; /* Dark Orange */
+}
+
+.package-btn:nth-child(9) {
+  background-color: #7f8c8d; /* Gray */
+}
+
+.package-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Ensure the header and body occupy full width */
+header {
+  width: 100%; /* Full width */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
